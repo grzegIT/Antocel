@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- CSS Sheets -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/mainCSS.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- JS scripts -->
+    <script src="js/mainJS.js"></script>
+    <!-- Live Reload script -->
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    
+    <!-- Slick slider-->
+    <script type="text/javascript" src="js/jquery.3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.intro-wrapper').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                arrows: false,
+                fade: true,
+                dots: true,
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="page-header">
+            <div class="page-content">
+                <div class="adress-bar">
+                    <ul class="adress-items">
+                        <li>+48 (18) 442 93 67</li>
+                        <li>antocel@vp.pl</li>
+                        <li>33-335 Nawojowa, Żeleźnikowa Wielka 91</li>
+                    </ul>
+                </div>
+                <a href="#"><img src="img/page-logo.png" alt="Antocel - logo" class="page-logo"></a>
+                
+                <nav class="page-navigation">                                                                                     
+                    <ul class="navigation-items">   
+                        <li><a href="#">Strona główna</a></li>
+                        <li><a href="#">O firmie</a></li>
+                        <li><a href="#">Nasza Oferta</a></li>
+                        <li><a href="#">kontakt</a></li>
+                        <li><a href="#">Dojazd</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+    <section class="page-intro">
+        <div class="intro-wrapper">
+            <img src="img/intro-1.jpg" alt="Slider image 1">
+            <img src="img/intro-2.jpg" alt="Slider image 2">
+        </div>
+        <div class="text-box">
+            <h1>Mięso z Terenów</h1>
+            <h2>Czystych ekologicznie<span class="border-bottom"></span></h2>
+            <div class="slick-dotted slick-slider"></div>
+        </div>
+    </section>
+
+    <section class="page-offer">
+        <div class="page-content">
+            <figure class="offer-box">
+                <img src="img/offer-box-1.jpg" alt="Rozbiór mięsa">
+                <h3>Rozbiór mięsa</h3>
+                <div class="underscore"></div>
+                <p>Oferujemy profesjonalny rozbiór mięsa wołowego gwarantując uzyskanie mięsa najwyższej jakości!</p>
+            </figure>
+            <figure class="offer-box">
+                <img src="img/offer-box-2.jpg" alt="Skup bydła">
+                <h3>Skup bydła</h3>
+                <div class="underscore"></div>
+                <p>Prowadzimy skup bydła na terenie całej Polski - jednak uwzględniamy tylko te obszary, które są nieskażone przemysłem</p>
+            </figure>
+            <figure class="offer-box">
+                <img src="img/offer-box-3.jpg" alt="Transport bydła">
+                <h3>Transport bydła</h3>
+                <div class="underscore"></div>
+                <p>Dysponujemy własnym wyspecjalizowanym transportem, którym dowozimy wyroby do kontrahentów.</p>
+            </figure>
+            <figure class="offer-box">
+                <img src="img/offer-box-4.jpg" alt="Sprzedaż mięsa">
+                <h3>Sprzedaż mięsa</h3>
+                <div class="underscore"></div>
+                <p>W sklepie firmowym w siedzibie firmy oferujemy sprzedaż mięsa krów, jałówek oraz buhajów</p>
+            </figure>
+        </div>
+    </section>
+
+    <section class="page-realizations">
+        <div class="page-content">
+            <div><h4>Żywność czyta ekologicznie</h4>
+            </div><div class="underscore"></div>
+            <div><p>Mięso z terenów czystych ekologicznie. Firma zlokalizowana w sercu Beskidu Sądeckiego</p></div>
+            <div><button class="btn-cta">zobacz więcej</button></div>
+        </div>
+    </section>
+    <section class="page-contact">
+        <div class="page-content">
+            <div class="contact-box"> <!-- box 1 -->
+                <h4>krótko o nas</h4>
+                <p>Firma ANTOCEL połóżona jest na południu Polski (Beskid Sądecki). Co sprawia, że nasza działalność ma znamiona "czystej ekologicznie". Istniejemy na rynku od ponad 15 lat.</p><br>
+                <p>Specjalizujemy się w produkcji mięsa wołowego oraz ćwiertuszy wołowych z krów, buhajów oraz jałówek.</p>
+            </div>
+            <div class="contact-box"> <!-- box 2 -->
+                <h4>Nasza Oferta</h4>
+                <ul>
+                    <li><a href="#">Rozbiórka mięsa</a></li>
+                    <li><a href="#">Skub bydła</a></li>
+                    <li><a href="#">Transport bydła</a></li>
+                    <li><a href="#">Sprzedaż mięsa</a></li>
+                </ul>
+            </div>
+            <div class="contact-box"> <!-- box 3 -->
+                <h4>Kontakt z nami</h4>
+                <ul>
+                    <li><img src="img/icons/adress-foot-icon.jpg"/>33-335 Nawojowa,<br>Żeleźnikowa Wielka 91 </li>
+                    <li><img src="img/icons/telephone-foot-icon.jpg"/>Telefon:  +48 (18) 442 93 67</li>
+                    <li><img src="img/icons/mail-foot-icon.jpg"/>e-mail:  antocel@vp.pl</li>
+                    <li><img src="img/icons/fax-foot-icon.jpg"/>Fax:  +48 (18) 442 93 67</li>
+                </ul>
+            </div>
+            <div class="contact-box"> <!-- box 4 -->
+                <h4>Godziny pracy</h4>
+                <p>Jesteśmy do Państwa dyspozycji 6 dni w tygodniu, zapraszamy do kontaktu</p>
+                <ul>
+                    <li>Poniedziałek - Piątek<span class="right-side">7:00 - 17:00</span></li>  
+                    <li>Sobota<span class="right-side">9:00 - 13:00</span></li></li>
+                    <li>Niedziela<span class="right-side">nieczynne</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <div class="page-content">
+            <ul class="footer-items">
+                <li><a href="#">Strona Główna</a></li>
+                <li><a href="#">O firmie</a></li>
+                <li><a href="#">Nasza Oferta</a></li>
+                <li><a href="#">Kontakt</a></li>                                                                       
+                <li><a href="#">Dojazd</a></li>
+                <li><a href="#">Projekt i realizacja: iPolska.com.pl</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
