@@ -22,6 +22,10 @@
     
 </head>
 <body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
     <header class="page-header">
             <div class="page-content">
                 <div class="adress-bar">
@@ -156,6 +160,8 @@
                 fade: true,
                 dots: true,
             });
+
+            $("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
         });
     </script>
 </body>
