@@ -204,3 +204,34 @@
     opacity: .75;
     color: #FFFFFF;
 }
+
+@media (max-width: 580px) {
+    .slick-dots
+    {
+        position: absolute;
+        top: 390px;
+        /*ustawieniawyswietlaniakropeknawigacyjnych*/
+        left: -38%;
+
+    }
+}
+@media (max-width: 440px) {
+    .slick-dots
+    {
+        position: absolute;
+        top: 390px;
+        /*ustawieniawyswietlaniakropeknawigacyjnych*/
+        left: -35%;
+
+    }
+}
+@media (max-width: 360px) {
+    .slick-dots
+    {
+        position: absolute;
+        top: 390px;
+        /*ustawieniawyswietlaniakropeknawigacyjnych*/
+        left: -30%;
+
+    }
+}
