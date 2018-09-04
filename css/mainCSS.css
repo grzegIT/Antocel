@@ -512,7 +512,6 @@ p {
                 border: 0;
                 border-top: solid #272727 3px;
                 cursor: pointer;
-                z-index: 1000;
                 transition: 200ms transform linear; 
                 -webkit-transition: 200ms transform linear;  
                 -moz-transition: 200ms transform linear; 
@@ -548,15 +547,21 @@ p {
             }
     
     .page-navigation {
+        z-index: 1000;
         width: 100%;
-        transition: 400ms;    
+        transition: 400ms;
         -webkit-transition: 400ms;
         -moz-transition: 400ms;
         -ms-transition: 400ms;
         -o-transition: 400ms;
+        transform:translateY(-120%);
+        -webkit-transform:translateY(-120%);
+        -moz-transform:translateY(-120%);
+        -ms-transform:translateY(-120%);
+        -o-transform:translateY(-120%);
 }
     .page-navigation.visible {
-        position: absolute; 
+        position: absolute;
         height: auto;
         width: 100%;
         margin: 15px auto 0;
@@ -564,12 +569,17 @@ p {
         z-index: 1000;
         box-shadow: 0px 5px 22px #000000;
         background-color: rgba(255,255,255, .85);
-        transition: 400ms;    
+        transition: 400ms;
         -webkit-transition: 400ms;
         -moz-transition: 400ms;
         -ms-transition: 400ms;
         -o-transition: 400ms;
-    }
+        transform:translateY(0);
+        -webkit-transform:translateY(0%);
+        -moz-transform:translateY(0%);
+        -ms-transform:translateY(0%);
+        -o-transform:translateY(0%);
+}
     .navigation-items.visible {
         height: auto;
     }
