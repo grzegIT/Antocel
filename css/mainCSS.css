@@ -512,6 +512,7 @@ p {
                 border: 0;
                 border-top: solid #272727 3px;
                 cursor: pointer;
+                z-index: 1000;
                 transition: 200ms transform linear; 
                 -webkit-transition: 200ms transform linear;  
                 -moz-transition: 200ms transform linear; 
